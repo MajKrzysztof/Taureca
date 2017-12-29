@@ -1,0 +1,341 @@
+.firstSection
+{
+	background-image: url('http://taureca.com/wp-content/uploads/2017/07/taureca_internet_to_milianrdy_transakcji.jpg');
+	padding-bottom: 235px;
+
+}
+#navbar
+{
+	background-color: transparent;
+	margin-top: 10px;
+}
+#navbar a
+{
+	color: #fff;
+	font-size: 16.1px; 
+	font-weight: 700;
+	font-family: Helvetica
+}
+#navbar li
+{
+	padding: 15px
+}
+#navbar a:hover
+{
+	background-color: transparent
+}
+
+.navbar-nav a
+{
+  	position:relative;
+  	text-decoration:none;
+  	display:inline-block;
+}
+.navbar-nav a:after {
+  	display:block;
+  	content: '';
+ 	border-bottom: solid 3px #fff;  
+ 	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out;
+  	transform-origin:100% 50%
+}
+.navbar-nav a:hover:after { 
+  	transform: scaleX(1);
+  	transform-origin:0 50%;
+}
+.internetInfo
+{
+	font-size: 56px;
+	color: #fff;
+	font-family: Helvetica;
+	font-weight: 900;
+}
+.bestInfo
+{
+	font-size: 42px;
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
+	color: #fff
+}
+.bigInfo
+{
+	text-align: center;
+	padding-top: 244px;
+}
+
+.offerSection
+{
+	display: inline-block;
+	padding-bottom: 55px;
+}
+.offerInfo
+{ 
+	font-size: 39.2px;
+	font-weight: 900;
+	font-family: Helvetica;
+	color: #000000;
+	margin-top: 56px
+}
+.offerInfo2
+{
+  	font-size: 24px;
+	font-weight: 500;
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
+	color: #000000;
+	width: 364px;
+	margin: 0;
+	text-align:center;
+
+}
+.blueLine
+{
+	display: block;
+	background-color: #62aed6;
+	width: 80%;
+	height: 5px;
+	margin: auto;
+	margin-top: 6px
+}
+.offerImages
+{
+	font-size: 16px;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
+	padding-top: 100px;
+
+}
+.offerImage p:nth-child(2)
+{
+	font-weight: bold;
+    font-size: 21px;
+    padding-top: 10px;
+}
+.offerImage p
+{
+	line-height: 29.4px;
+	font-size: 16.8px
+}
+.aboutUsDetails1
+{
+	font-size: 24px;
+	font-weight: 500;
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
+	color: #000000;
+	width: 177px;
+	margin: auto;
+	text-align:center;
+    padding-bottom: 40px;
+}
+.aboutUsHeading
+{
+	font-size: 2.8em;
+	font-weight: 900;
+	padding-top: 100px;
+}
+.stagesSection
+{
+	background-image: url("http://taureca.com/wp-content/themes/taureca/img/about_bg.png");
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.circle
+{
+	border: 10px #fff solid;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	color: #62aed6;
+	font-size: 28px;
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
+	background-color: #fff;
+	text-align: center;
+	padding: auto;
+	display: block;
+}
+.stagesSection h3
+{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+.stagesSection p:not(.circle)
+{
+	color: #fff;
+	font-size: 16.8px;
+	text-align: center;
+}
+.circles
+{
+	background-image: url("http://taureca.com/wp-content/themes/taureca/img/dot2.png");
+	width: 100%;
+	display: block;
+	height: 16px;
+	margin-top: 32px;
+	background-repeat: space round
+
+}
+.stageNumberContainer
+{
+	display: flex;
+}
+.stageNumberContainer h3
+{
+	display: block;
+ 	width: auto;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.imgContainer
+{
+	text-align: center;
+}
+.stagesSection .col-md-6 .col-md-3
+{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.stagesSection .col-md-3 h2
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+.rocketImageContainer
+{
+	padding-right: 69px !important;
+}
+.stagesSection .row .col-md-6 .stagesMainColumn2::after
+{
+	background-image: url("http://taureca.com/wp-content/themes/taureca/img/dot2.png");
+	width: 16px;
+	display: block;
+	height: 50%;
+	background-repeat: space round;
+	content: "";
+    position: absolute;
+    right: 7px;
+    top: -32px;
+}
+.stagesSection .row .col-md-6 .stagesMainColumn1::after
+{
+	background-image: url("http://taureca.com/wp-content/themes/taureca/img/dot2.png");
+	width: 16px;
+	display: block;
+	height: 39%;
+	background-repeat: space round;
+	content: "";
+    position: absolute;
+    right: 7px;
+    top: 122px;
+}
+.stagesMainColumn2
+{
+    margin-top: 50px;
+}
+.realizationImages
+{
+	height: 500px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+
+}
+.textSectionOne
+{
+	font-size: 40px;
+	font-weight: 600;
+	display: block;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 6px;
+	padding-top: 120px;
+
+}
+.textSectionTwo
+{
+ 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 6px;
+	line-height: 21.6px;
+
+}
+.textSectionThree
+{
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16.8px;
+	line-height: 29.4px;
+	padding: 35px 70px;
+
+
+
+}
+.button-blue
+{
+	background-color: #3840ff;
+}
+.button-green
+{
+	background-color: #00e284;
+}
+.button
+{
+	border: 0;
+	padding: 14px 44px;
+	font-size: 14px;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	color: #fff;
+}
+.contactSectionTextOne
+{
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.contactSectionTextTwo
+{
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
+	font-size: 18.2px;
+	font-weight: 400;
+}
+.contactInfoOne
+{
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22.1px;
+	font-weight: bold;
+}
+.contactSection i
+{
+	color: #1e81ce;
+	text-align: center;
+	font-size: 43px;
+	padding-right: 20px;
+	width: 63px;
+}
+.contactSection span.fbIcon
+{
+	border-color: #1e81ce;
+	border-width: 5px;
+	border-style: solid;
+	height: 55px;
+	padding: 3px 15px;
+}
+.fbLink
+{
+	display: flex;
+}
+.contactSection span.fbIcon i
+{
+	width: auto;
+	padding: 0;
+}
+.contactSection input, .contactSection textarea
+{
+	border: 2px solid #3840ff;
+	margin: 10px 0;
+}
+.faqSaction
+{
+	background-image: linear-gradient(rgb(56, 64, 255) 0%, rgb(95, 135, 142) 100%);
+}
