@@ -339,3 +339,8 @@
 {
 	background-image: linear-gradient(rgb(56, 64, 255) 0%, rgb(95, 135, 142) 100%);
 }
+.faqSaction .row p
+{
+    font-size: 18px;
+    color: #fff;
+}
