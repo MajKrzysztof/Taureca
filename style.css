@@ -7,7 +7,7 @@
 #navbar
 {
 	background-color: transparent;
-	margin-top: 10px;
+	margin-top: 0;
 }
 #navbar a
 {
@@ -343,4 +343,13 @@
 {
     font-size: 18px;
     color: #fff;
+}
+.scrolled a
+{
+	color: blue!important;
+}
+.scrolled
+{
+	background-color: #fff!important;
+	height: 70px;
 }
