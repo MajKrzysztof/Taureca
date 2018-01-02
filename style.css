@@ -305,6 +305,10 @@
 	font-size: 22.1px;
 	font-weight: bold;
 }
+.contactSection
+{
+	padding-left: 70px;
+}
 .contactSection i
 {
 	color: #1e81ce;
@@ -324,6 +328,7 @@
 .fbLink
 {
 	display: flex;
+	padding-left: 50px;
 }
 .contactSection span.fbIcon i
 {
@@ -338,12 +343,20 @@
 .faqSaction
 {
 	background-image: linear-gradient(rgb(56, 64, 255) 0%, rgb(95, 135, 142) 100%);
+	padding-left: 70px;
 }
-.faqSaction .row p
+.faqSaction .row a
 {
     font-size: 18px;
     color: #fff;
 }
+.faqSaction .row h2
+{
+	color: #fff;
+	font-weight: bolder;
+
+}
+
 .scrolled a
 {
 	color: blue!important;
@@ -352,4 +365,8 @@
 {
 	background-color: #fff!important;
 	height: 70px;
+}
+.scrolled .nav.navbar-right.navbar-nav
+{
+	margin-top: -10px;
 }
