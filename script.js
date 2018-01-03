@@ -13,3 +13,8 @@ $(window).on("scroll", function ()
     }
     console.log($("nav").offset());
 });
+    $(document).ready(function(){
+        $(".opener").click(function(){
+            $(this).next().toggle();
+        });
+    });

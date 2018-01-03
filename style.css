@@ -354,9 +354,27 @@
 {
 	color: #fff;
 	font-weight: bolder;
-
+	padding-top: 20px;
 }
-
+.faqSaction .row h3
+{
+	color: #fff;
+	font-family: "Kaushan Script", "Raleway", Helvetica, Arial, cursive;
+	font-size: 19.6px;
+}
+.faqSaction .row h4
+{
+	color: #fff;
+	font-size: 16.8px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.faqSaction .row p
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+}
 .scrolled a
 {
 	color: blue!important;
