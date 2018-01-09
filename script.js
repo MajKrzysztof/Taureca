@@ -15,6 +15,6 @@ $(window).on("scroll", function ()
 });
     $(document).ready(function(){
         $(".opener").click(function(){
-            $(this).next().toggle();
+            $(this).next().slideToggle();
         });
     });

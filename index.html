@@ -22,7 +22,7 @@
 <div class="firstSection">
     <div class="row">
         <div class="col-md-12">
-            <nav id="navbar" class="navbar navbar-fixed-top">
+            <nav id="navbar" class="navbar navbar-fixed-top hidden-xs">
                 <div class="container">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
@@ -37,9 +37,19 @@
                     </ul>
                 </div>
             </nav>
+            <div class="only-xs">
+                <div class="navbar-header">
+                            <button type="button">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Brand</a>
+                        </div>
+            </div>
         </div>
     </div>
-
     <div class="row">
         <div class="col-md-12 bigInfo">
             <p class="internetInfo">
@@ -389,7 +399,7 @@
         </div>
         <form>
             <div class="col-sm-12">
-                <input type="text" placeholder="Imię i Nazwisko" class="form-control">
+                <input type="text" placeholder="Imię i Nazwisko" class="form-control nameInput">
             </div>
             <div class="col-sm-12">
                 <input type="text" placeholder="E-mail" class="form-control">
@@ -401,7 +411,7 @@
                 <textarea class="form-control" rows="10" placeholder="Twoja wiadomość"></textarea>
             </div>
             <div class="col-sm-12 text-center">
-                <input type="submit" value="WYŚLIJ" class="button button-blue">
+                <input type="submit" value="WYŚLIJ" class="button button-blue submitButton">
             </div>
         </form>
     </div>

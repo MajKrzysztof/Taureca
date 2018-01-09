@@ -298,6 +298,7 @@
 	font-family: "Kaushan Script", "Raleway", Helvetica, Arial;
 	font-size: 18.2px;
 	font-weight: 400;
+	margin-bottom: 80px;
 }
 .contactInfoOne
 {
@@ -415,5 +416,16 @@
 {
 	background-color: rgba(255, 255, 255, 0.2);
 }
-
+.nameInput
+{
+	margin-top: 75px!important;
+}
+.submitButton
+{
+	margin-top: 60px!important;
+}
+input:focus ,textarea:focus
+{
+	border: 4px solid #3840ff!important;
+}
 
