@@ -17,4 +17,8 @@ $(window).on("scroll", function ()
         $(".opener").click(function(){
             $(this).next().slideToggle();
         });
+        $(".glyphicon-menu-hamburger").click(function(){
+            console.log("123");
+            $(".mobileMenu").css("width","280px");
+        });
     });

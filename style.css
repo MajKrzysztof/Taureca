@@ -428,4 +428,34 @@ input:focus ,textarea:focus
 {
 	border: 4px solid #3840ff!important;
 }
-
+.glyphicon-menu-hamburger
+{
+	color: #fff;
+	font-size: 28px;
+	float: right;
+	padding-top: 30px;
+	padding-right: 15px;
+}
+.mobileMenu
+{
+	background-color: #3840ff;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+	width: 230px;
+	height: 100%;
+}
+.mobileMenu ul
+{
+	list-style-type: none;
+	margin-top: 75px;
+}
+.mobileMenu li a
+{
+	font-weight: bolder;
+	color: #fff;
+}
+.mobileMenu li
+{
+	margin-top: 30px;
+}
