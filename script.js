@@ -1,24 +1,44 @@
-$(window).on("scroll", function ()
-{
-    if($("nav").offset().top > 10)
-    {
+$(window).on("scroll", function () {
+    if ($("nav").offset().top > 10) {
         $("nav").addClass("scrolled");
-        $("nav img").attr("src","logo.png");
+        $("nav img").attr("src", "logo.png");
 
     }
-    else
-    {
+    else {
         $("nav").removeClass("scrolled");
-        $("nav img").attr("src","logo2.png");
+        $("nav img").attr("src", "logo2.png");
     }
     console.log($("nav").offset());
 });
-    $(document).ready(function(){
-        $(".opener").click(function(){
-            $(this).next().slideToggle();
-        });
-        $(".glyphicon-menu-hamburger").click(function(){
-            console.log("123");
-            $(".mobileMenu").css("width","280px");
-        });
+$(document).ready(function () {
+    $(".opener").click(function () {
+        $(this).next().slideToggle();
     });
+    $(".glyphicon-menu-hamburger").click(function () {
+        //jesli dlugosc elementu .mobileMaenu jest wyzsza od 0 to:
+            //zmniejsz dlugosc elementu .mobileMenu do 0
+        //jesli nie, to:
+            //zwieksz dlugosc elementu .mobileMenu do 280px
+
+        console.log($(".mobileMenu").css('width'));
+        if ($(".mobileMenu").css("width") !== "0px")
+        {
+            $(".mobileMenu").css("width", "0");
+        }
+        else
+        {
+            $(".mobileMenu").css("width", "280px");
+        }
+    });
+});
+
+
+if ($("glyphicon-menu-hamburger").click()) {
+    $("nav").addClass("hidden");
+    $("nav img").attr("src", "logo.png");
+
+}
+else {
+    $("nav").removeClass("scrolled");
+    $("nav img").attr("src", "logo2.png");
+}
