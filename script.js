@@ -2,14 +2,17 @@ $(window).on("scroll", function () {
     if ($("nav").offset().top > 10) {
         $("nav").addClass("scrolled");
         $("nav img").attr("src", "logo.png");
-
+        $(".glyphicon-menu-hamburger").css("color", "#0047d8");
+        $(".hiddenOnScroll").css("display", "none");
     }
     else {
         $("nav").removeClass("scrolled");
         $("nav img").attr("src", "logo2.png");
+        $(".glyphicon-menu-hamburger").css("color", "#fff");
+        $(".hiddenOnScroll").css("display", "block");
     }
-    console.log($("nav").offset());
 });
+
 $(document).ready(function () {
     $(".opener").click(function () {
         $(this).next().slideToggle();
@@ -23,15 +26,14 @@ $(document).ready(function () {
         console.log($(".mobileMenu").css('width'));
         if ($(".mobileMenu").css("width") !== "0px")
         {
-            $(".mobileMenu").css("width", "0");
+            $(".mobileMenu").animate({width:0},500);
         }
         else
         {
-            $(".mobileMenu").css("width", "280px");
+            $(".mobileMenu").animate({width:"280px"},500);
         }
     });
 });
-
 
 if ($("glyphicon-menu-hamburger").click()) {
     $("nav").addClass("hidden");
