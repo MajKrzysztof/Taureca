@@ -2,14 +2,14 @@ $(window).on("scroll", function () {
     if ($("nav").offset().top > 10) {
         $("nav").addClass("scrolled");
         $("nav img").attr("src", "logo.png");
-        $(".glyphicon-menu-hamburger").css("color", "#0047d8");
-        $(".hiddenOnScroll").css("display", "none");
+        $(".hiddenOnScroll").css("color", "#0047d8");
+        // $(".hiddenOnScroll").css("display", "none");
     }
     else {
         $("nav").removeClass("scrolled");
         $("nav img").attr("src", "logo2.png");
-        $(".glyphicon-menu-hamburger").css("color", "#fff");
-        $(".hiddenOnScroll").css("display", "block");
+        $(".hiddenOnScroll").css("color", "#fff");
+        // $(".hiddenOnScroll").css("display", "block");
     }
 });
 
