@@ -478,3 +478,14 @@ input:focus ,textarea:focus
 {
 	margin-top: 30px;
 }
+@media(min-width: 992px)
+{
+	.pullRightOnNotXs
+	{
+		float:right;
+	}
+}
+.mb45
+{
+	margin-bottom: 45px;
+}
