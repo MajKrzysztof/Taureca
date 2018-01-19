@@ -484,6 +484,11 @@ input:focus ,textarea:focus
 	{
 		float:right;
 	}
+
+    .contactAndFAQ
+    {
+        display: flex;
+    }
 }
 .mb45
 {
