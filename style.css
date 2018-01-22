@@ -1,3 +1,8 @@
+.container-fluid
+{
+	padding: 0!important;
+
+}
 .firstSection
 {
 	background-image: url('http://taureca.com/wp-content/uploads/2017/07/taureca_internet_to_milianrdy_transakcji.jpg');
@@ -416,7 +421,6 @@
 .faqQuestion p
 {
 	text-align: left;
-	width: 960px;
 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-left: 50px;
 	line-height: 35px;
