@@ -217,7 +217,7 @@
 	padding-left: 1px;
 	padding-right: 1px;
 }
-.stagesSection .col-md-3 h2
+.stagesSection .col-lg-3 h2
 {
 	color: #fff;
 	font-weight: bold;
@@ -497,4 +497,28 @@ input:focus ,textarea:focus
 .mb45
 {
 	margin-bottom: 45px;
+}
+
+@media(max-width: 1199px)
+{
+	.circles
+	{
+		display: none;
+	}
+	.stagesSection .row .col-md-6 .stagesMainColumn2::after
+	{
+		display: none;
+	}
+	.stagesSection .row .col-md-6 .stagesMainColumn1::after
+	{
+		display: none;
+	}
+	.circle
+	{
+		margin: auto;
+	}
+}
+.stageNumberContainer h3
+{
+	margin:auto;
 }
