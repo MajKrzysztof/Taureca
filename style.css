@@ -224,10 +224,6 @@
 	font-size: 24px;
 	text-align: center;
 }
-.rocketImageContainer
-{
-	padding-right: 69px !important;
-}
 .stagesSection .row .col-md-6 .stagesMainColumn2::after
 {
 	background-image: url("http://taureca.com/wp-content/themes/taureca/img/dot2.png");
@@ -517,8 +513,29 @@ input:focus ,textarea:focus
 	{
 		margin: auto;
 	}
+	.imgContainer
+	{
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
 }
 .stageNumberContainer h3
 {
 	margin:auto;
 }
+@media(min-width: 1200px )
+{
+	.rocketImageContainer
+	{
+		padding-right: 69px !important;
+	}
+}
+@media(min-width: 768px)
+{
+	.aboutSection
+	{
+		width: 750px;
+		margin: auto;
+	}
+}
+
