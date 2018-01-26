@@ -7,7 +7,9 @@
 {
 	background-image: url('http://taureca.com/wp-content/uploads/2017/07/taureca_internet_to_milianrdy_transakcji.jpg');
 	padding-bottom: 235px;
-
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
 }
 #navbar
 {
